@@ -82,7 +82,7 @@ cast_message_prefix: "a:&5&o"
 sounds: true
 
 # Whether wands can be crafted on a crafting table
-enable_crafting: true
+enable_crafting: false
 
 # NOTE: If you disable spell upgrades, you probably also want to nerf magic missile's SP
 # earn rate, assuming you still have that spell enabled. Add this to spells.yml (not commented out)
@@ -98,7 +98,7 @@ enable_spell_upgrades: true
 enable_spell_progression: true
 
 # Automatically upgrades spells based on cast count
-enable_automatic_spell_upgrades: true
+enable_automatic_spell_upgrades: false
 
 # Automatically upgrade wand paths when a spell upgrades or progresses
 enable_automatic_path_upgrades: true
@@ -174,13 +174,13 @@ wand_location_offset: 0.5
 wand_location_offset_vertical: 0
 
 # Set this to true to make wands "Unbreakable", regardless of the indestructible property
-wand_unbreakable: false
+wand_unbreakable: true
 
 # Set this to false to allow players to put wands in chests.
 # The Magic.wand.override_stash permission also allows players to override this setting.
 # Wands are droppable and stashable normally unless they are set to "undroppable: true"
 # The "unstashable" property can also be set per-wand instead of using this global setting.
-wand_unstashable: false
+wand_unstashable: true
 
 # Skill configuration
 default_skill_icon: stick
@@ -337,7 +337,7 @@ sp_items_enabled: true
 sp_item_icon_url: http://textures.minecraft.net/texture/ce6ed0a5f7e23bc3d34d73baa0b9c3f838e85014d2ff290801dc7486dd4da6
 
 # Cap SP- mainly so the UI doesn't get broken. 0 to disable and allow unlimited SP.
-sp_max: 9999
+sp_max: 1000000000
 
 # The amount of SP that new players start with
 sp_default: 0
